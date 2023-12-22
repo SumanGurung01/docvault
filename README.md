@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Docvault
+Welcome to Docvault, A web application for secure storage of documents, photos, and files on the internet. Docvault ensures the safety and privacy of your important data with robust features like clerk authentication, dark mode, drag-and-drop file uploads, and responsive Design.
 
-## Getting Started
+## Link
+Check out the Website [Click here](https://docvault-nine.vercel.app/)
 
-First, run the development server:
+## Features
+- **Clerk Authentication:** Docvault prioritizes the security of your documents. With Clerk Authentication, only authorized users can access and manage the stored files. This adds an extra layer of protection to your sensitive information.
+- **Dark Mode:** Experience a sleek and eye-friendly interface with Dark Mode. Whether you prefer a light or dark theme, DocVault adapts to your visual preferences, providing a comfortable and customizable user experience.
+- **Drag and Drop Files:** Simplify the process of uploading files with the intuitive Drag-and-Drop feature. Effortlessly add multiple documents, photos, and files to DocVault by dragging them directly into the web app, making file management a breeze.
+- **File Management:** View, organize, and manage your files within the Docvault dashboard. 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Responsive Design
+Whether you're on your desktop, tablet, or mobile device, Docvault ensures a consistent and user-friendly experience. The responsive design adapts seamlessly to various screen sizes.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<img src="https://github.com/SumanGurung01/docvault/assets/92732976/50900d69-420c-490c-857d-324d3d587467" width=100 height=200>
+<img src="https://github.com/SumanGurung01/docvault/assets/92732976/9535f863-faec-4d16-86c5-f33955edab74" width=350 height=200>
+<img src="https://github.com/SumanGurung01/docvault/assets/92732976/ef55a05f-cd7a-4615-8add-6e7e7a0ae39c" width=150 height=200>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## How to Use
+1. **Sign In:** Sign in with Google or Facebook.
+2. **Upload Files:** Once logged in, you will be directed to your dashboard. To upload files, either click on the designated upload area or use the Drag-and-Drop feature to add documents, photos, or files.
+3. **Manage Files:** View, organize, and manage your files within the Docvault dashboard. 
+4. **Sign Out:** To secure your session, click on the "Logout" button when you are done using DocVault.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Technologies Used
+- **Next.js** in Frontend
+- **Shad-cn** for UI Components
+- **Tailwind CSS** for Styling
+- **Firebase** for backend and database
+- **Zustand** for State Management
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Feedback
+We welcome your feedback and contributions. Feel free to open an issue, submit a pull request, or reach out with your thoughts and ideas.
