@@ -5,40 +5,41 @@ import { ClerkProvider } from "@clerk/nextjs";
 import Header from "@/components/Header";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import { Toaster } from "react-hot-toast";
+import { cn } from "@/lib/utils";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Docvault",
-  description: "secure file storage",
+    title: "Docvault",
+    description: "secure file storage"
 };
 
 export default function RootLayout({
-  children,
+    children
 }: {
-  children: React.ReactNode;
+    children: React.ReactNode;
 }) {
-  return (
-    <ClerkProvider>
-      <html lang="en" suppressHydrationWarning>
-        <body className={inter.className}>
-          <head>
-            <link rel="icon" href="/titlelogo.png" />
-          </head>
-          <ThemeProvider
-            attribute="class"
-            defaultTheme="system"
-            enableSystem
-            disableTransitionOnChange
-          >
-            <Header />
+    return (
+        <ClerkProvider>
+            <html lang="en" suppressHydrationWarning>
+                <body className={inter.className}>
+                    <head>
+                        <link rel="icon" href="/titlelogo.png" />
+                    </head>
 
-            {children}
+                    <ThemeProvider
+                        attribute="class"
+                        defaultTheme="system"
+                        enableSystem
+                        disableTransitionOnChange
+                    >
+                        <Header />
 
-            <Toaster />
-          </ThemeProvider>
-        </body>
-      </html>
-    </ClerkProvider>
-  );
+                        {children}
+                    </ThemeProvider>
+                    <Toaster />
+                </body>
+            </html>
+        </ClerkProvider>
+    );
 }
